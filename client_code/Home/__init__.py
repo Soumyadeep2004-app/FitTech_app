@@ -6,7 +6,6 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 from ..Switchtosportsmode import Switchtosportsmode 
-from ..Back import
 
 
 
@@ -28,7 +27,7 @@ class Home(HomeTemplate):
   def back_link_click(self, **event_args):
     """This method is called when the button is clicked"""
     self.content_panel.clear()
-    self.column_panel_2.add_component(Back())
+    self.column_panel_2.remove_from_parent()
     
 
 
