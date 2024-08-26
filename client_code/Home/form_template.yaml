@@ -1,0 +1,14 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - name: label_1
+    properties: {text: HI everyone....}
+    type: Label
+    layout_properties: {grid_position: 'GOGAPA,UTAPTH'}

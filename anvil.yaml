@@ -59,3 +59,4 @@ services:
 - source: /runtime/services/anvil/users.yml
   client_config: {allow_signup: true, enable_automatically: true, use_email: true, confirm_email: false, use_google: false}
   server_config: {user_table: users}
+uplink_visible: true

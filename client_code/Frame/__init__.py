@@ -31,6 +31,11 @@ class Frame(FrameTemplate):
     anvil.users.login_with_form()
     open_form('Frame')
 
+  def home_link_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    self.content_panel.clear()
+    self.content_panel.add_component(Home())
+
 
 
 
