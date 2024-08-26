@@ -6,6 +6,8 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 from ..Home import Home
+from ..Aboutus import Aboutus
+from ..Contactus import Contactus
 
 #This is your startup form. It has a sidebar with navigation links and a content panel where page content will be added.
 class Frame(FrameTemplate):
@@ -37,6 +39,19 @@ class Frame(FrameTemplate):
     self.content_panel.clear()
     self.content_panel.add_component(Home())
     self.home_link.background = app.theme_colors['Primary Container']
+
+  def aboutus_link_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    self.content_panel.clear()
+    self.content_panel.add_component(Aboutus())
+    self.home_link.background = app.theme_colors['Primary Container']
+
+  def contactus_link_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    self.content_panel.clear()
+    self.content_panel.add_component(Contactus())
+    self.home_link.background = app.theme_colors['Primary Container']
+    
 
 
 

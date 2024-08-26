@@ -37,6 +37,16 @@ components:
       type: Button
       layout_properties: {grid_position: 'HXXHTE,OXFYRJ'}
       event_bindings: {click: home_link_click}
+  - name: aboutus_link_click
+    properties: {text: about us, background: 'theme:Primary', icon: 'fa:angle-right', italic: false, underline: true}
+    type: Button
+    layout_properties: {grid_position: 'XEQOSB,QONWWF'}
+    event_bindings: {click: aboutus_link_click}
+  - name: contactus_link_click
+    properties: {text: contact us, underline: true, icon: 'fa:angle-right', background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'KQRWLJ,SSZYCX'}
+    event_bindings: {click: contactus_link_click}
 - name: image_1
   properties: {source: _/theme/5250d8b0-409d-4dbf-9e70-38a15daf934a.png}
   type: Image
