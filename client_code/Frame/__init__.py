@@ -8,6 +8,7 @@ from anvil.tables import app_tables
 from ..Home import Home
 from ..Aboutus import Aboutus
 from ..Contactus import Contactus
+from ..Scheduleplan import Scheduleplan
 
 #This is your startup form. It has a sidebar with navigation links and a content panel where page content will be added.
 class Frame(FrameTemplate):
@@ -50,6 +51,12 @@ class Frame(FrameTemplate):
     """This method is called when the button is clicked"""
     self.content_panel.clear()
     self.content_panel.add_component(Contactus())
+    self.home_link.background = app.theme_colors['Primary Container']
+
+  def scheduleplan_link_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    self.content_panel.clear()
+    self.content_panel.add_component(Scheduleplan())
     self.home_link.background = app.theme_colors['Primary Container']
     
 
