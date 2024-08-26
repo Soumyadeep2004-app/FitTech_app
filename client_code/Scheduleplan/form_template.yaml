@@ -1,7 +1,7 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: ''}
 components:
 - type: ColumnPanel
   properties: {}
@@ -33,3 +33,11 @@ components:
       type: Button
       layout_properties: {grid_position: 'TBPNKK,XRCGGW'}
       event_bindings: {click: healthyhabits_link_click}
+    - name: image_1
+      properties: {source: _/theme/Black Red Simple Burning Bush Photo Album Cover.jpg, display_mode: fill_width, height: 747.6000061035156}
+      type: Image
+      layout_properties: {grid_position: 'NUJAMJ,EPPVKM'}
+    - name: back_link_click
+      properties: {text: back, underline: true, align: left, background: 'theme:Error', icon: 'fa:arrow-circle-left'}
+      type: Button
+      layout_properties: {grid_position: 'KSAFAV,LQDRUZ'}

@@ -7,3 +7,18 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - name: column_panel_1
+    properties: {}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'ENAGMD,DMXEIU'}
+    components:
+    - name: image_1
+      properties: {source: _/theme/Black and Soft Gray Minimal Tips Diet For Beginner Instagram Post.png, display_mode: fill_width}
+      type: Image
+      layout_properties: {grid_position: 'REAYEA,TNCCRQ'}
+    - name: back_link_click
+      properties: {text: back, underline: true, align: left, icon: 'fa:arrow-circle-left', background: 'theme:Error'}
+      type: Button
+      layout_properties: {grid_position: 'ZMLECU,GRVSSA'}
+      event_bindings: {click: bank_link_click, show: scheduleplan_link_click}
