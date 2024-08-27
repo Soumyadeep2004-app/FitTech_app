@@ -1,0 +1,14 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: ''}
+components:
+- type: ColumnPanel
+  properties: {}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - name: image_1
+    properties: {source: _/theme/Screenshot_28-8-2024_42010_.jpeg, display_mode: fill_width}
+    type: Image
+    layout_properties: {grid_position: 'SHTYWB,ZVYUUK'}
