@@ -1,7 +1,7 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: ''}
 components:
 - type: ColumnPanel
   properties: {}
@@ -12,3 +12,80 @@ components:
     properties: {text: CHOOSE THE  BODY PART YOU WANT TO TRAIN, underline: true, bold: true, foreground: 'theme:Primary', font_size: 30, align: center}
     type: Label
     layout_properties: {grid_position: 'AQFHEN,WRTVAJ'}
+  - name: image_1
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 1.40.35 AM.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YNJVNK,NXYDPO QQLFJW,EBBKIM'}
+  - name: chest_link_click
+    properties: {text: chest, align: center, background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'YNJVNK,NXYDPO KDZHUV,IKASBJ'}
+    event_bindings: {click: chest_link_click}
+  - name: image_3
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 1.55.13 AM.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YNJVNK,NXYDPO KYJJIN,HTCRMN'}
+  - name: shoulder_link_click
+    properties: {text: shoulder, foreground: '', background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'YNJVNK,NXYDPO UIEVHR,VNPODP'}
+    event_bindings: {click: shoulder_link_click}
+  - name: image_5
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 2.23.00 AM.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YNJVNK,NXYDPO XRKBOJ,KIZAPT'}
+  - name: biceps_link_click
+    properties: {text: biceps, background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'YNJVNK,NXYDPO DOLUQX,ATNRDA'}
+    event_bindings: {click: biceps_link_click}
+  - name: image_7
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 2.35.08 AM.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YNJVNK,NXYDPO XDTCXE,ZBKTSJ'}
+  - name: quads_link_click
+    properties: {text: quads, background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'YNJVNK,NXYDPO GUZMTN,ZAWDHO'}
+    event_bindings: {click: quads_link_click}
+  - name: image_2
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 1.48.44 AM.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YNJVNK,KKWMTF'}
+  - name: back_link_click
+    properties: {text: back, background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'YNJVNK,KKWMTF QZPDTN,UZVMAL'}
+    event_bindings: {click: back_link_click}
+  - name: image_4
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 2.03.33 AM.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YNJVNK,KKWMTF CPUMJA,FWZUMU'}
+  - name: abs_link_click
+    properties: {text: abs, background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'YNJVNK,KKWMTF VRNOWA,RVQAEH'}
+    event_bindings: {click: abs_link_click}
+  - name: image_6
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 2.29.51 AM.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YNJVNK,KKWMTF VUXHKC,IXBEPL'}
+  - name: triceps_link_click
+    properties: {text: triceps, background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'YNJVNK,KKWMTF ALWOKF,UONBSC'}
+    event_bindings: {click: triceps_link_click}
+  - name: image_8
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 2.39.21 AM.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YNJVNK,KKWMTF BFYRZX,NCZSSW'}
+  - name: cub_link_click
+    properties: {text: cub, background: 'theme:Primary'}
+    type: Button
+    layout_properties: {grid_position: 'YNJVNK,KKWMTF XJTABP,PJJRQA'}
+    event_bindings: {click: cub_link_click}
+  - name: back_link_click_link
+    properties: {text: back, align: left, background: 'theme:Error', icon: 'fa:arrow-circle-left'}
+    type: Button
+    layout_properties: {grid_position: 'EMNPCJ,ERXGCT'}
+    event_bindings: {click: back_link_click_link}
