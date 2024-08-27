@@ -1,7 +1,7 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: ''}
 components:
 - type: ColumnPanel
   properties: {}
@@ -9,12 +9,16 @@ components:
   layout_properties: {slot: default}
   components:
   - name: image_1
-    properties: {border: fi, source: _/theme/Screenshot_27-8-2024_14101_.jpeg}
+    properties: {border: '', source: _/theme/Screenshot_27-8-2024_15107_.jpeg, display_mode: fill_width}
     type: Image
     layout_properties: {grid_position: 'XPEPFN,ASUXPO', row_background: ''}
     data_bindings:
     - {property: tooltip, code: 'self.item['''']', writeback: false}
   - name: image_2
-    properties: {source: _/theme/Screenshot_27-8-2024_142520_.jpeg}
+    properties: {source: _/theme/Screenshot_27-8-2024_151052_.jpeg, display_mode: fill_width}
     type: Image
     layout_properties: {grid_position: 'MATTGR,AOEGXK'}
+  - name: image_3
+    properties: {source: _/theme/Screenshot_27-8-2024_1580_.jpeg, display_mode: fill_width}
+    type: Image
+    layout_properties: {grid_position: 'FXTYIK,RXRHVR'}
