@@ -9,6 +9,6 @@ components:
   layout_properties: {slot: default}
   components:
   - name: image_1
-    properties: {source: _/theme/Power Gym Instagram Story.png, display_mode: fill_width}
+    properties: {source: _/theme/Screenshot_27-8-2024_192020_.jpeg, display_mode: fill_width}
     type: Image
     layout_properties: {grid_position: 'BXMQBQ,BWCSOQ'}
