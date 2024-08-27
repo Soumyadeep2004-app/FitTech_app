@@ -9,8 +9,8 @@ components:
   layout_properties: {slot: default}
   components:
   - name: image_1
-    properties: {border: fi}
+    properties: {border: fi, source: _/theme/Screenshot_27-8-2024_14101_.jpeg}
     type: Image
-    layout_properties: {grid_position: 'XPEPFN,ASUXPO', row_background: 'theme:Primary'}
+    layout_properties: {grid_position: 'XPEPFN,ASUXPO', row_background: ''}
     data_bindings:
     - {property: tooltip, code: 'self.item['''']', writeback: false}
