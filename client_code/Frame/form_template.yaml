@@ -26,36 +26,44 @@ components:
   - name: column_panel_1
     properties: {}
     type: ColumnPanel
-    layout_properties: {grid_position: 'FOQUGS,YCRAEV'}
+    layout_properties: {grid_position: 'VJUPRW,OINJBX'}
     components:
     - name: image_2
-      properties: {source: _/theme/prototypelogo.png, display_mode: fill_width, background: 'theme:Primary', horizontal_align: left}
+      properties: {source: _/theme/prototypelogo.png, display_mode: shrink_to_fit, background: 'theme:On Secondary', horizontal_align: left, height: 257.6000061035156, border: ''}
       type: Image
-      layout_properties: {grid_position: 'SCGPHW,JTUPPV'}
+      layout_properties: {grid_position: 'MXKMQU,PRVZOF'}
+    - name: spacer_2
+      properties: {height: 16.399932861328125}
+      type: Spacer
+      layout_properties: {grid_position: 'DMCHLB,TXWUVF'}
     - name: home_link_click
-      properties: {text: home, underline: true, bold: true, align: left, background: 'theme:Primary', icon: 'fa:angle-right'}
+      properties: {text: home, underline: true, bold: true, align: center, background: 'theme:Primary', icon: 'fa:angle-right'}
       type: Button
-      layout_properties: {grid_position: 'HXXHTE,OXFYRJ'}
+      layout_properties: {grid_position: 'EYUHWR,JLCHQB'}
       event_bindings: {click: home_link_click}
     - name: aboutus_link_click
-      properties: {text: about us, background: 'theme:Primary', icon: 'fa:angle-right', italic: false, underline: true, align: left}
+      properties: {text: about us, background: 'theme:Primary', icon: 'fa:angle-right', italic: false, underline: true, align: center}
       type: Button
-      layout_properties: {grid_position: 'TFBLMF,FHEMOC'}
+      layout_properties: {grid_position: 'VWFKOJ,LGKROZ'}
       event_bindings: {click: aboutus_link_click}
-  - name: scheduleplan_link_click
-    properties: {text: schedule plan, underline: true, background: 'theme:Primary', icon: 'fa:angle-right', align: left}
-    type: Button
-    layout_properties: {grid_position: 'VZYLSK,BWYEGN'}
-    event_bindings: {click: scheduleplan_link_click}
-  - name: contactus_link_click
-    properties: {text: contact us, underline: true, icon: 'fa:angle-right', background: 'theme:Primary', align: left}
-    type: Button
-    layout_properties: {grid_position: 'KQRWLJ,SSZYCX'}
-    event_bindings: {click: contactus_link_click}
-  - name: label_1
-    properties: {bold: true, align: center, background: 'theme:On Secondary', underline: false, font: '70', icon_align: left, foreground: 'theme:Primary', italic: true, text: 'Sweat it Out, Make it Count '}
-    type: Label
-    layout_properties: {grid_position: 'KTJNNT,NIUXSR'}
+    - name: scheduleplan_link_click
+      properties: {text: schedule plan, underline: true, background: 'theme:Primary', icon: 'fa:angle-right', align: center}
+      type: Button
+      layout_properties: {grid_position: 'ACXQOI,KRBEAY'}
+      event_bindings: {click: scheduleplan_link_click}
+    - name: contactus_link_click
+      properties: {text: contact us, underline: true, icon: 'fa:angle-right', background: 'theme:Primary', align: center}
+      type: Button
+      layout_properties: {grid_position: 'MMIOON,KVKAXB'}
+      event_bindings: {click: contactus_link_click}
+    - name: label_1
+      properties: {bold: true, align: center, background: 'theme:On Secondary', underline: false, font: '70', icon_align: left, foreground: 'theme:Primary', italic: true, text: 'Sweat it Out, Make it Count '}
+      type: Label
+      layout_properties: {grid_position: 'UIYAML,GMYJVX'}
+    - name: spacer_1
+      properties: {height: 12}
+      type: Spacer
+      layout_properties: {grid_position: 'EAZCRC,IVLQQM'}
 - name: image_1
   properties: {source: _/theme/prototypelogo.png, display_mode: shrink_to_fit}
   type: Image
