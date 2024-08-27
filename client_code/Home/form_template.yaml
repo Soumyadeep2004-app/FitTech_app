@@ -14,12 +14,12 @@ components:
     layout_properties: {grid_position: 'UBSRXX,WXDKXN'}
     components:
     - name: switchtosportsmode_link_click
-      properties: {text: switch to sports mode, background: 'theme:Tertiary', icon: 'fa:futbol-o'}
+      properties: {text: switch to sports mode, background: 'theme:Primary', icon: 'fa:futbol-o'}
       type: Button
       layout_properties: {grid_position: 'VWMJES,JPOJXM'}
       event_bindings: {click: switchtosportsmode_link_click}
   - name: image_1
-    properties: {source: _/theme/pic1.jpg, display_mode: fill_width}
+    properties: {source: _/theme/Screenshot_27-8-2024_184149_.jpeg, display_mode: fill_width}
     type: Image
     layout_properties: {grid_position: 'CZLFIT,KAGGMN'}
   - name: column_panel_2
