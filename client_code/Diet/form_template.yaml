@@ -1,18 +1,36 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: ''}
 components:
 - type: ColumnPanel
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
   components:
+  - name: label_1
+    properties: {text: ENTER YOUR GOAL, underline: true, background: '', bold: true, font: '', align: center, foreground: 'theme:Primary', font_size: 30}
+    type: Label
+    layout_properties: {grid_position: 'HGEEYE,SGYCHB'}
   - name: column_panel_1
     properties: {}
     type: ColumnPanel
     layout_properties: {grid_position: 'ENAGMD,DMXEIU'}
     components:
+    - name: spacer_1
+      properties: {height: 30}
+      type: Spacer
+      layout_properties: {grid_position: 'ZVCJSE,BBXHPY'}
+    - name: cutting_link_click
+      properties: {text: cutting, background: 'theme:Primary', icon: 'fa:caret-right'}
+      type: Button
+      layout_properties: {grid_position: 'QCGOVA,ASWCMD'}
+      event_bindings: {click: cutting_link_click}
+    - name: bulking_link_click
+      properties: {text: bulking, icon: 'fa:caret-right', foreground: '', background: 'theme:Primary'}
+      type: Button
+      layout_properties: {grid_position: 'SKFKWW,VLZZCU'}
+      event_bindings: {click: bulking_link_click}
     - name: image_1
       properties: {source: _/theme/Black and Soft Gray Minimal Tips Diet For Beginner Instagram Post.png, display_mode: fill_width}
       type: Image

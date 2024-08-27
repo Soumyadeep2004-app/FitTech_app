@@ -5,6 +5,8 @@ import anvil.users
 import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
+from ..Cutting import Cutting
+from ..Bulking import Bulking
 
 
 class Diet(DietTemplate):
@@ -13,3 +15,14 @@ class Diet(DietTemplate):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
+
+  def cutting_link_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    self.content_panel.clear()
+    self.content_panel.add_component(Cutting())
+
+  def bulking_link_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    self.content_panel.clear()
+    self.content_panel.add_component(Bulking())
+    
