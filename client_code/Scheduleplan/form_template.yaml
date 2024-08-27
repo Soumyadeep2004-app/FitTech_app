@@ -8,36 +8,44 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
+  - name: label_1
+    properties: {text: CHOOSE YOUR GOAL, align: center, underline: true, foreground: 'theme:Primary', font_size: 30}
+    type: Label
+    layout_properties: {grid_position: 'DEHPIG,FVQMNO'}
   - name: column_panel_1
     properties: {}
     type: ColumnPanel
     layout_properties: {grid_position: 'QDRDUV,JREKBZ'}
     components:
-    - name: diet_link_click
-      properties: {text: diet, background: 'theme:Primary', icon: 'fa:angle-double-right', align: left}
-      type: Button
-      layout_properties: {grid_position: 'WFHXUH,UALJUJ'}
-      event_bindings: {click: diet_link_click}
-    - name: fitness_link_click
-      properties: {text: fitness, background: 'theme:Primary', icon: 'fa:angle-double-right', bold: true, align: left}
-      type: Button
-      layout_properties: {grid_position: 'TXUDFX,HXUXCC'}
-      event_bindings: {click: fitness_link_click}
     - name: sports_link_click
-      properties: {text: sports, align: left, background: 'theme:Primary', icon: 'fa:angle-double-right'}
+      properties: {text: sports, align: center, background: 'theme:Primary', icon: 'fa:angle-double-right'}
       type: Button
       layout_properties: {grid_position: 'QYPYUJ,DZSKCN'}
       event_bindings: {click: sports_link_click}
     - name: healthyhabits_link_click
-      properties: {text: healthy habits, align: left, background: 'theme:Primary', icon: 'fa:angle-double-right'}
+      properties: {text: healthy habits, align: center, background: 'theme:Primary', icon: 'fa:angle-double-right'}
       type: Button
       layout_properties: {grid_position: 'TBPNKK,XRCGGW'}
       event_bindings: {click: healthyhabits_link_click}
     - name: image_1
-      properties: {source: _/theme/Black Red Simple Burning Bush Photo Album Cover.jpg, display_mode: fill_width, height: 747.6000061035156}
+      properties: {source: _/theme/Screenshot_28-8-2024_51127_.jpeg, display_mode: fill_width, height: 747.6000061035156}
       type: Image
       layout_properties: {grid_position: 'NUJAMJ,EPPVKM'}
-    - name: back_link_click
-      properties: {text: back, underline: true, align: left, background: 'theme:Error', icon: 'fa:arrow-circle-left'}
-      type: Button
-      layout_properties: {grid_position: 'KSAFAV,LQDRUZ'}
+  - name: fitness_link_click
+    properties: {text: fitness, background: 'theme:Primary', icon: 'fa:angle-double-right', bold: true, align: center}
+    type: Button
+    layout_properties: {grid_position: 'QDRDUV,IWBPMF TLTVWZ,ICWTXX'}
+    event_bindings: {click: fitness_link_click}
+  - name: diet_link_click
+    properties: {text: diet, background: 'theme:Primary', icon: 'fa:angle-double-right', align: center}
+    type: Button
+    layout_properties: {grid_position: 'QDRDUV,IWBPMF JKBVZB,WKWWIO'}
+    event_bindings: {click: diet_link_click}
+  - name: image_2
+    properties: {source: _/theme/Screenshot_28-8-2024_5107_.jpeg, display_mode: fill_width}
+    type: Image
+    layout_properties: {grid_position: 'QDRDUV,IWBPMF EWMUGF,EEAQAU'}
+  - name: back_link_click
+    properties: {text: back, underline: true, align: left, background: 'theme:Error', icon: 'fa:arrow-circle-left'}
+    type: Button
+    layout_properties: {grid_position: 'KWDBII,QFDLFF'}
