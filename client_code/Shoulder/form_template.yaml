@@ -8,6 +8,22 @@ components:
     name: label_2
     properties: {align: center, font_size: 30, foreground: 'theme:Primary', text: Dumbbell Front Raise, underline: true}
     type: Label
+  - layout_properties: {grid_position: 'SNRGXO,TDFLVI TOGGEM,PMZJAR'}
+    name: rich_text_3
+    properties: {align: center, content: '~ 3 Sets                                                                                                 ~ Each set contains 20 repetitions                                                 * perform this exercise with light weight          and do not move your arms too up.                            ', font_size: 20, format: plain_text}
+    type: RichText
+  - layout_properties: {grid_position: 'SNRGXO,TDFLVI BTKQGE,TMQJET'}
+    name: image_4
+    properties: {source: _/theme/WhatsApp Image 2024-08-29 at 1.17.07 AM.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'SNRGXO,TDFLVI TDVKWM,TOAGFO'}
+    name: label_4
+    properties: {align: center, font_size: 30, foreground: 'theme:Primary', text: Shoulder Press, underline: true}
+    type: Label
+  - layout_properties: {grid_position: 'SNRGXO,TDFLVI SFRQKM,YFCYBA'}
+    name: rich_text_6
+    properties: {align: center, content: '~ 3 Sets and 2 Drop Sets                                                                         ~ Each set contains 10 repetitions                                                    * hold the bar parallel to your shoulder and squeeze the shoulder muscles while pushing the bar upwards.                                                  ', font_size: 20, format: plain_text}
+    type: RichText
   - layout_properties: {grid_position: 'SNRGXO,DSAAMX WXYGTB,IZBCCB'}
     name: image_2
     properties: {source: _/theme/WhatsApp Image 2024-08-28 at 9.43.16 PM.jpeg}
@@ -16,19 +32,51 @@ components:
     name: label_1
     properties: {align: center, font_size: 30, foreground: 'theme:Primary', text: Dumbbell Lateral Raise, underline: true}
     type: Label
+  - layout_properties: {grid_position: 'SNRGXO,DSAAMX BJVTZI,VWQYXL'}
+    name: rich_text_2
+    properties: {align: center, content: '~ 3 Sets                                                                                                  ~ Each set contains 20 repetitions                                                 * perform this exercise gently and with light weight.                                                                                                  ', font_size: 20, format: plain_text}
+    type: RichText
+  - layout_properties: {grid_position: 'SNRGXO,DSAAMX GCPTSA,TTGQXD'}
+    name: image_5
+    properties: {source: _/theme/WhatsApp Image 2024-08-29 at 1.24.08 AM.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'SNRGXO,DSAAMX SMDRHX,QLGTCP'}
+    name: label_5
+    properties: {align: center, bold: false, font_size: 30, foreground: 'theme:Primary', text: Seated Military Press, underline: true}
+    type: Label
+  - layout_properties: {grid_position: 'SNRGXO,DSAAMX LEBEGI,RZJTZM'}
+    name: rich_text_5
+    properties: {align: center, content: '~ 4 Sets                                                                                                 ~ Each set contains 10 - 12 repetitions                                           * keep performing this exercise until you reach failure and always perform this exercise under the supervision of instructor                                                                                    ', font_size: 20, format: plain_text}
+    type: RichText
   - layout_properties: {grid_position: 'SNRGXO,LIJDYV EOXYFL,BIFKZF'}
     name: image_3
+    properties: {source: _/theme/WhatsApp Image 2024-08-29 at 1.06.20 AM.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'SNRGXO,LIJDYV GJPCDC,IMUCOK'}
+    name: label_6
+    properties: {align: center, font_size: 30, foreground: 'theme:Primary', text: Face Pull, underline: true}
+    type: Label
+  - layout_properties: {grid_position: 'SNRGXO,LIJDYV XBSADS,QBIXJB'}
+    name: rich_text_4
+    properties: {align: center, content: '~ 3 Sets and 1 Drop Set                                                                   ~ Each set contains 15 repetitions                                                  * squeeze the shoulder muscles when you pull the rope towards you.                                                    ', font_size: 20, format: plain_text}
+    type: RichText
+  - layout_properties: {grid_position: 'SNRGXO,LIJDYV OSQEHC,VARZFG'}
+    name: image_6
     properties: {source: _/theme/WhatsApp Image 2024-08-28 at 9.58.36 PM.jpeg}
     type: Image
-  - layout_properties: {grid_position: 'SNRGXO,LIJDYV GUGLZY,IIQIMI'}
+  - layout_properties: {grid_position: 'SNRGXO,LIJDYV UUHGGV,ZDNSTZ'}
     name: label_3
     properties: {align: center, font_size: 30, foreground: 'theme:Primary', text: Reverse Fly, underline: true}
     type: Label
+  - layout_properties: {grid_position: 'SNRGXO,LIJDYV IWLMTV,CPAPGS'}
+    name: rich_text_1
+    properties: {align: center, content: '~ 3 Sets                                                                                               ~ Each set contains 20 repetitions                                               * Do not jerk your arms while performing this exercise and perform this exercise with moderate weight.                           ', font_size: 20, format: plain_text}
+    type: RichText
   layout_properties: {slot: default}
   name: content_panel
   properties: {}
   type: ColumnPanel
 container:
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: ''}
   type: HtmlTemplate
 is_package: true

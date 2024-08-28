@@ -11,7 +11,7 @@ components:
   - components: []
     layout_properties: {grid_position: 'HEIEER,FMDNYY UIFKDB,WVFPSS'}
     name: rich_text_1
-    properties: {align: center, content: ~ 4 Sets                                                                                                                                                   ~ Each set contains 15 repetitions                                                               * breathe in while going downwards and                                                       breathe out while going upwards.                                                           _____________________________________________________________, font_size: 20, format: plain_text}
+    properties: {align: center, content: '~ 4 Sets                                                                                                                                                   ~ Each set contains 15 repetitions                                                               * breathe in while going downwards and                                                       breathe out while going upwards.                                                           ', font_size: 20, format: plain_text}
     type: RichText
   - layout_properties: {grid_position: 'HEIEER,FMDNYY QPWHFW,SVCHAK'}
     name: image_4
@@ -23,7 +23,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'HEIEER,FMDNYY ULQVRO,BIKROX'}
     name: rich_text_4
-    properties: {align: center, content: ~ 4 Set                                                                                        ~ Each set contains 10 repetitions                                                           * while doing this exercise keep your arms in control.                                                        ________________________________________, font_size: 20, format: plain_text}
+    properties: {align: center, content: '~ 4 Set                                                                                        ~ Each set contains 10 repetitions                                                           * while doing this exercise keep your arms in control.                                                        ', font_size: 20, format: plain_text}
     type: RichText
   - layout_properties: {grid_position: 'HEIEER,TTXNAB MDAWTL,CEPFJK'}
     name: image_3
@@ -35,7 +35,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'HEIEER,TTXNAB TBYQYI,OCSIIV'}
     name: rich_text_3
-    properties: {align: center, content: ~ 3 Sets                                                                                      ~ Each set contains 12 repetitions                                                   * Squeeze your muscles while opening  your arms.                                                     ________________________________________, font_size: 20, format: plain_text}
+    properties: {align: center, content: '~ 3 Sets                                                                                      ~ Each set contains 12 repetitions                                                   * Squeeze your muscles while opening your arms.                                                    ', font_size: 20, format: plain_text}
     type: RichText
   - layout_properties: {grid_position: 'HEIEER,TTXNAB OTAOVW,THRNYH'}
     name: image_5
@@ -47,7 +47,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'HEIEER,TTXNAB UTHMGT,YVKXMR'}
     name: rich_text_5
-    properties: {align: center, content: ~ 3 Set and 1 Drop Set                                                                                     ~ Each set contains 12 repetitions                                                        * stretch your muscles while performing this exercise.                                                ________________________________________, font_size: 20, format: plain_text}
+    properties: {align: center, content: '~ 3 Set and 1 Drop Set                                                                                     ~ Each set contains 12 repetitions                                                        * stretch your muscles while performing this exercise.                                                ', font_size: 20, format: plain_text}
     type: RichText
   - layout_properties: {grid_position: 'HEIEER,JNBOBZ ETGKDZ,PGZLVF'}
     name: image_2
@@ -60,7 +60,7 @@ components:
   - components: []
     layout_properties: {grid_position: 'HEIEER,JNBOBZ FOQDFR,RTKYWY'}
     name: rich_text_2
-    properties: {align: center, content: ~ 3 Sets and 1 Drop Set                                                                               ~Each set contains 10 - 12 repetitions                                                 * fix your bench in 30 degrees and                                                             control your momentum.                                                                                    _____________________________________________________________, font_size: 20, format: plain_text}
+    properties: {align: center, content: '~ 3 Sets and 1 Drop Set                                                                               ~Each set contains 10 - 12 repetitions                                                 * fix your bench in 30 degrees and                                                             control your momentum.                                                                                    ', font_size: 20, format: plain_text}
     type: RichText
   - layout_properties: {grid_position: 'HEIEER,JNBOBZ EYCYRZ,GGUHFS'}
     name: image_6
@@ -72,8 +72,12 @@ components:
     type: Label
   - layout_properties: {grid_position: 'HEIEER,JNBOBZ VIOTZG,QCHCSW'}
     name: rich_text_6
-    properties: {align: center, content: '~ 3 Set                                                                                                                 ~ Each set contains 8 - 10 repetitions                                           * try to control your momentum while performing this exercise and try to perform this exercise till your failure.                  ________________________________________                                                                       ', font_size: 20, format: plain_text}
+    properties: {align: center, content: '~ 3 Set                                                                                                                 ~ Each set contains 8 - 10 repetitions                                           * try to control your momentum while performing this exercise and try to perform this exercise till your failure.                                                                                        ', font_size: 20, format: plain_text}
     type: RichText
+  - layout_properties: {grid_position: 'PPOWVF,QHHKUT'}
+    name: back1_link_click
+    properties: {align: left, text: back}
+    type: Button
   layout_properties: {slot: default}
   name: content_panel
   properties: {}

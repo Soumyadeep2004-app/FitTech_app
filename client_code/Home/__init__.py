@@ -26,6 +26,14 @@ class Home(HomeTemplate):
     self.content_panel.clear()
     self.content_panel.add_component(Switchtosportsmode())
 
+  def back_link_click(self, widget):
+    """This method is called when the button is clicked"""
+    self.webview.go_back()
+
+  def on_backbutton_clicked(self, **event_args):
+    """This method is called when the button is clicked"""
+    self..go_back()
+
   
     
     
