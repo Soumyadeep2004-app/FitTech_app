@@ -1,23 +1,23 @@
-is_package: true
-container:
-  type: HtmlTemplate
-  properties: {html: ''}
 components:
-- type: ColumnPanel
-  properties: {}
-  name: content_panel
-  layout_properties: {slot: default}
-  components:
-  - name: image_1
-    properties: {source: _/theme/Screenshot_28-8-2024_35250_.jpeg, display_mode: fill_width}
+- components:
+  - layout_properties: {grid_position: 'FIQJAK,RRNOKK'}
+    name: image_1
+    properties: {display_mode: fill_width, source: _/theme/Screenshot_28-8-2024_35250_.jpeg}
     type: Image
-    layout_properties: {grid_position: 'FIQJAK,RRNOKK'}
-  - name: button_1
-    properties: {text: back, background: 'theme:Error', align: left, icon: 'fa:arrow-circle-left', bold: true}
+  - layout_properties: {grid_position: 'AMXLFR,XNCECU'}
+    name: button_1
+    properties: {align: left, background: 'theme:Error', bold: true, icon: 'fa:arrow-circle-left', text: back}
     type: Button
-    layout_properties: {grid_position: 'AMXLFR,XNCECU'}
-  - name: next_link_click
-    properties: {text: next, align: right, icon: 'fa:arrow-circle-o-right', background: 'theme:Primary'}
-    type: Button
+  - event_bindings: {click: next_link_click}
     layout_properties: {grid_position: 'AMXLFR,LXAOUA'}
-    event_bindings: {click: next_link_click}
+    name: next_link_click
+    properties: {align: right, background: 'theme:Primary', icon: 'fa:arrow-circle-o-right', text: next}
+    type: Button
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {html: ''}
+  type: HtmlTemplate
+is_package: true

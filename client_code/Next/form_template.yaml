@@ -1,14 +1,14 @@
-is_package: true
-container:
-  type: HtmlTemplate
-  properties: {html: ''}
 components:
-- type: ColumnPanel
-  properties: {}
-  name: content_panel
-  layout_properties: {slot: default}
-  components:
-  - name: image_1
-    properties: {source: _/theme/Screenshot_28-8-2024_42010_.jpeg, display_mode: fill_width}
+- components:
+  - layout_properties: {grid_position: 'SHTYWB,ZVYUUK'}
+    name: image_1
+    properties: {display_mode: fill_width, source: _/theme/Screenshot_28-8-2024_42010_.jpeg}
     type: Image
-    layout_properties: {grid_position: 'SHTYWB,ZVYUUK'}
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {html: ''}
+  type: HtmlTemplate
+is_package: true

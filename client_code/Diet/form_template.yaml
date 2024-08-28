@@ -1,42 +1,42 @@
-is_package: true
-container:
-  type: HtmlTemplate
-  properties: {html: ''}
 components:
-- type: ColumnPanel
-  properties: {}
-  name: content_panel
-  layout_properties: {slot: default}
-  components:
-  - name: label_1
-    properties: {text: ENTER YOUR GOAL, underline: true, background: '', bold: true, font: '', align: center, foreground: 'theme:Primary', font_size: 30}
+- components:
+  - layout_properties: {grid_position: 'HGEEYE,SGYCHB'}
+    name: label_1
+    properties: {align: center, background: '', bold: true, font: '', font_size: 30, foreground: 'theme:Primary', text: ENTER YOUR GOAL, underline: true}
     type: Label
-    layout_properties: {grid_position: 'HGEEYE,SGYCHB'}
-  - name: column_panel_1
-    properties: {}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'ENAGMD,DMXEIU'}
-    components:
-    - name: spacer_1
+  - components:
+    - layout_properties: {grid_position: 'ZVCJSE,BBXHPY'}
+      name: spacer_1
       properties: {height: 30}
       type: Spacer
-      layout_properties: {grid_position: 'ZVCJSE,BBXHPY'}
-    - name: cutting_link_click
-      properties: {text: cutting, background: 'theme:Primary', icon: 'fa:caret-right'}
-      type: Button
+    - event_bindings: {click: cutting_link_click}
       layout_properties: {grid_position: 'QCGOVA,ASWCMD'}
-      event_bindings: {click: cutting_link_click}
-    - name: bulking_link_click
-      properties: {text: bulking, icon: 'fa:caret-right', foreground: '', background: 'theme:Primary'}
+      name: cutting_link_click
+      properties: {background: 'theme:Primary', icon: 'fa:caret-right', text: cutting}
       type: Button
+    - event_bindings: {click: bulking_link_click}
       layout_properties: {grid_position: 'SKFKWW,VLZZCU'}
-      event_bindings: {click: bulking_link_click}
-    - name: image_1
-      properties: {source: _/theme/Black and Soft Gray Minimal Tips Diet For Beginner Instagram Post.png, display_mode: fill_width}
-      type: Image
-      layout_properties: {grid_position: 'REAYEA,TNCCRQ'}
-    - name: back_link_click
-      properties: {text: back, underline: true, align: left, icon: 'fa:arrow-circle-left', background: 'theme:Error'}
+      name: bulking_link_click
+      properties: {background: 'theme:Primary', foreground: '', icon: 'fa:caret-right', text: bulking}
       type: Button
+    - layout_properties: {grid_position: 'REAYEA,TNCCRQ'}
+      name: image_1
+      properties: {display_mode: fill_width, source: _/theme/Black and Soft Gray Minimal Tips Diet For Beginner Instagram Post.png}
+      type: Image
+    - event_bindings: {click: bank_link_click, show: scheduleplan_link_click}
       layout_properties: {grid_position: 'ZMLECU,GRVSSA'}
-      event_bindings: {click: bank_link_click, show: scheduleplan_link_click}
+      name: back_link_click
+      properties: {align: left, background: 'theme:Error', icon: 'fa:arrow-circle-left', text: back, underline: true}
+      type: Button
+    layout_properties: {grid_position: 'ENAGMD,DMXEIU'}
+    name: column_panel_1
+    properties: {}
+    type: ColumnPanel
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {html: ''}
+  type: HtmlTemplate
+is_package: true

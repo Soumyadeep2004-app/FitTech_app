@@ -1,9 +1,9 @@
-is_package: true
-container:
-  type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
 components:
-- type: ColumnPanel
-  properties: {}
+- layout_properties: {slot: default}
   name: content_panel
-  layout_properties: {slot: default}
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true
