@@ -1,7 +1,7 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: '@theme:standard-page.html', background: 'theme:'}
   data_bindings: []
 components:
 - type: ColumnPanel
@@ -10,7 +10,7 @@ components:
   layout_properties: {slot: left-nav}
   components:
   - name: login_link_click
-    properties: {text: log in, bold: true, underline: true, foreground: 'theme:Primary', icon: 'fa:sign-out'}
+    properties: {text: log in, bold: true, underline: true, foreground: 'theme:Primary', icon: 'fa:sign-out', background: ''}
     type: Button
     layout_properties: {grid_position: 'AHSNNL,OZWNUO'}
     event_bindings: {click: login_link_click}
@@ -25,12 +25,12 @@ components:
   layout_properties: {slot: default}
   components:
   - name: column_panel_1
-    properties: {}
+    properties: {background: 'theme:'}
     type: ColumnPanel
     layout_properties: {grid_position: 'VJUPRW,OINJBX'}
     components:
     - name: image_2
-      properties: {source: _/theme/1724804109079.png, display_mode: shrink_to_fit, background: 'theme:On Secondary', horizontal_align: left, height: 257.6000061035156, border: ''}
+      properties: {source: _/theme/1724804109079.png, display_mode: shrink_to_fit, background: 'theme:', horizontal_align: left, height: 257.6000061035156, border: ''}
       type: Image
       layout_properties: {grid_position: 'MXKMQU,PRVZOF'}
     - name: spacer_2
@@ -58,7 +58,7 @@ components:
       layout_properties: {grid_position: 'MMIOON,KVKAXB'}
       event_bindings: {click: contactus_link_click}
     - name: label_1
-      properties: {bold: true, align: center, background: 'theme:On Secondary', underline: false, font: '70', icon_align: left, foreground: 'theme:Primary', italic: true, text: 'Sweat it Out, Make it Count '}
+      properties: {bold: true, align: center, background: 'theme:', underline: false, font: '70', icon_align: left, foreground: 'theme:Primary', italic: true, text: 'Sweat it Out, Make it Count '}
       type: Label
       layout_properties: {grid_position: 'UIYAML,GMYJVX'}
     - name: spacer_1
