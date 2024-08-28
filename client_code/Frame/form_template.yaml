@@ -2,6 +2,7 @@ is_package: true
 container:
   type: HtmlTemplate
   properties: {html: '@theme:standard-page.html'}
+  data_bindings: []
 components:
 - type: ColumnPanel
   properties: {col_widths: '{}'}
@@ -68,3 +69,4 @@ components:
   properties: {source: _/theme/1724804109079.png, display_mode: shrink_to_fit}
   type: Image
   layout_properties: {slot: logo}
+  event_bindings: {mouse_up: soumyadeepmajumder04@gmail.com}
