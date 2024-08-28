@@ -45,6 +45,10 @@ components:
     name: label_4
     properties: {align: center, font_size: 30, foreground: 'theme:Primary', text: Chest Fly, underline: true}
     type: Label
+  - layout_properties: {grid_position: 'HEIEER,TTXNAB UTHMGT,YVKXMR'}
+    name: rich_text_5
+    properties: {}
+    type: RichText
   - layout_properties: {grid_position: 'HEIEER,JNBOBZ ETGKDZ,PGZLVF'}
     name: image_2
     properties: {source: _/theme/WhatsApp Image 2024-08-28 at 3.42.08 PM.jpeg}
