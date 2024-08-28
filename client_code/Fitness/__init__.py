@@ -10,6 +10,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 from ..Chest import Chest
 from ..Back import Back
+from ..Shoulder import Shoulder
 
 
 class Fitness(FitnessTemplate):
@@ -28,3 +29,10 @@ class Fitness(FitnessTemplate):
     """This method is called when the button is clicked"""
     self.content_panel.clear()
     self.content_panel.add_component(Back())
+
+  def shoulder_link_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    self.content_panel.clear()
+    self.content_panel.add_component(Shoulder())
+
+
