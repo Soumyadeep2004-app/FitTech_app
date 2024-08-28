@@ -1,5 +1,86 @@
 components:
-- layout_properties: {slot: default}
+- components:
+  - layout_properties: {grid_position: 'KNMDHV,QFDUAX'}
+    name: label_1
+    properties: {align: center, font_size: 30, foreground: 'theme:Primary', text: Choose Your Sport, underline: true}
+    type: Label
+  - layout_properties: {grid_position: 'UCNVNP,DWRSYM JFCWIT,TCTLQS'}
+    name: spacer_1
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'UCNVNP,DWRSYM BHWCFY,PBNRIU'}
+    name: image_4
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 3.33.21 PM.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'UCNVNP,DWRSYM GDNHDT,WJWKJN'}
+    name: button_1
+    properties: {background: 'theme:Primary', text: hockey}
+    type: Button
+  - layout_properties: {grid_position: 'UCNVNP,DWRSYM YGPXEX,VDDRAU'}
+    name: spacer_4
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'UCNVNP,DWRSYM MZLUXC,JPQMDX'}
+    name: image_5
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 3.35.09 PM (1).jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'UCNVNP,DWRSYM AWORWC,FMFIGG'}
+    name: button_3
+    properties: {background: 'theme:Primary', text: Badminton}
+    type: Button
+  - layout_properties: {grid_position: 'UCNVNP,AGFZZJ UMJZAN,GMWLIR'}
+    name: spacer_2
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'UCNVNP,AGFZZJ MWHSUW,YLOKDJ'}
+    name: image_3
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 3.25.35 PM.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'UCNVNP,AGFZZJ UDBVCI,RYACXI'}
+    name: button_2
+    properties: {background: 'theme:Primary', text: basketball}
+    type: Button
+  - layout_properties: {grid_position: 'UCNVNP,AGFZZJ RHPADQ,QWXPAX'}
+    name: spacer_3
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'UCNVNP,AGFZZJ MXRODB,KXOABO'}
+    name: image_6
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 3.39.16 PM.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'UCNVNP,AGFZZJ LYVLSS,AORTAJ'}
+    name: button_4
+    properties: {background: 'theme:Primary', text: volleyball}
+    type: Button
+  - layout_properties: {grid_position: 'LDUYQZ,VZSGBM'}
+    name: spacer_7
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'BUIPLM,QAXOQF OQGXBQ,XDASDL'}
+    name: image_1
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 3.15.05 PM.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'BUIPLM,QAXOQF XZQKXQ,BRZMJX'}
+    name: button_6
+    properties: {background: 'theme:Primary', text: cricket}
+    type: Button
+  - layout_properties: {grid_position: 'BUIPLM,QAXOQF PZXFRZ,SXOTSA'}
+    name: spacer_5
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'BUIPLM,TTJDKC CDCFPG,YKVCIA'}
+    name: image_2
+    properties: {source: _/theme/WhatsApp Image 2024-08-28 at 3.19.55 PM.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'BUIPLM,TTJDKC GXBRSJ,RROUVM'}
+    name: button_5
+    properties: {background: 'theme:Primary', text: football}
+    type: Button
+  - layout_properties: {grid_position: 'BUIPLM,TTJDKC ZSQNNU,TSLWNF'}
+    name: spacer_6
+    properties: {height: 32}
+    type: Spacer
+  layout_properties: {slot: default}
   name: content_panel
   properties: {}
   type: ColumnPanel
